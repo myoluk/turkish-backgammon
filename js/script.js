@@ -188,7 +188,7 @@ function drawBoard(brd) {
   for (var i = 1; i <= 24; i++) drawPoint(i, brd["p" + i]);
   drawCheckersOnTheBar();
   drawCheckersBearedOff();
-  drawCube(Cube);
+  // drawCube(Cube);
   drawRest();
 
   function Button(x, y, width, height, text){
